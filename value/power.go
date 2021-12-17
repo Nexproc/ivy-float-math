@@ -5,9 +5,8 @@
 package value
 
 import (
+	"ivy_float_math/config"
 	"math/big"
-
-	"github.com/Nexproc/ivy-float-math/config"
 )
 
 func power(c Context, u, v Value) Value {

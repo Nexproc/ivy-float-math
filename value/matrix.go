@@ -10,8 +10,6 @@ import (
 	"io"
 	"sort"
 	"strings"
-
-	"github.com/Nexproc/ivy-float-math/config"
 )
 
 /*

@@ -16,8 +16,6 @@ package value
 import (
 	"fmt"
 	"math/big"
-
-	"github.com/Nexproc/ivy-float-math/config"
 )
 
 const (

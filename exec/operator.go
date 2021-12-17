@@ -4,7 +4,7 @@
 
 package exec
 
-import "github.com/Nexproc/ivy-float-math/value"
+import "ivy_float_math/value"
 
 // Predefined reports whether the operator is predefined, a built-in.
 func Predefined(op string) bool {

@@ -6,8 +6,6 @@ package value
 
 import (
 	"math/big"
-
-	"github.com/Nexproc/ivy-float-math/config"
 )
 
 type loop struct {

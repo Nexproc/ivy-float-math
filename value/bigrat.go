@@ -9,8 +9,6 @@ import (
 	"fmt"
 	"math/big"
 	"strings"
-
-	"github.com/Nexproc/ivy-float-math/config"
 )
 
 type BigRat struct {

@@ -8,8 +8,6 @@ import (
 	"fmt"
 	"strconv"
 	"unicode/utf8"
-
-	"github.com/Nexproc/ivy-float-math/config"
 )
 
 type Char rune

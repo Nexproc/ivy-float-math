@@ -4,7 +4,7 @@
 
 package value
 
-import "github.com/Nexproc/ivy-float-math/config"
+import "ivy_float_math/config"
 
 // Expr and Context are defined here to avoid import cycles
 // between parse and value.

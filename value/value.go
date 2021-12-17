@@ -6,10 +6,9 @@ package value // import "ivy_float_math/value"
 
 import (
 	"fmt"
+	"ivy_float_math/config"
 	"math/big"
 	"strings"
-
-	"github.com/Nexproc/ivy-float-math/config"
 )
 
 var debugConf = &config.Config{} // For debugging, e.g. to call a String method.

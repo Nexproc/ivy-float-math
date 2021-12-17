@@ -5,10 +5,9 @@
 package exec // import "ivy_float_math/exec"
 
 import (
+	"ivy_float_math/config"
+	"ivy_float_math/value"
 	"strings"
-
-	"github.com/Nexproc/ivy-float-math/config"
-	"github.com/Nexproc/ivy-float-math/value"
 )
 
 // Symtab is a symbol table, a map of names to values.

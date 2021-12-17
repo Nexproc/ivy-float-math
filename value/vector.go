@@ -7,9 +7,8 @@ package value
 import (
 	"bytes"
 	"fmt"
+	"ivy_float_math/config"
 	"sort"
-
-	"github.com/Nexproc/ivy-float-math/config"
 )
 
 type Vector []Value
