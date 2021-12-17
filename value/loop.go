@@ -7,7 +7,7 @@ package value
 import (
 	"math/big"
 
-	"robpike.io/ivy/config"
+	"ivy_big_lib_math/config"
 )
 
 type loop struct {

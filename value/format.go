@@ -12,7 +12,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"robpike.io/ivy/config"
+	"ivy_big_lib_math/config"
 )
 
 // fmtText returns a vector of Chars holding the string representation

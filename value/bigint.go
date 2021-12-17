@@ -10,7 +10,7 @@ import (
 	"math/big"
 	"strings"
 
-	"robpike.io/ivy/config"
+	"ivy_big_lib_math/config"
 )
 
 type BigInt struct {

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"robpike.io/ivy/config"
+	"ivy_big_lib_math/config"
 )
 
 type Char rune

@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package exec // import "robpike.io/ivy/exec"
+package exec // import "ivy_float_math/exec"
 
 import (
 	"strings"
 
-	"robpike.io/ivy/config"
-	"robpike.io/ivy/value"
+	"ivy_big_lib_math/config"
+	"ivy_big_lib_math/value"
 )
 
 // Symtab is a symbol table, a map of names to values.

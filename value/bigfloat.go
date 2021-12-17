@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"robpike.io/ivy/config"
+	"ivy_big_lib_math/config"
 )
 
 type BigFloat struct {

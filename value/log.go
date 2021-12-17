@@ -6,16 +6,16 @@ package value
 
 import "math/big"
 
-func logn(c Context, v Value) Value {
-	return evalFloatFunc(c, v, floatLog)
+func Logn(c Context, v Value) Value {
+	return evalFloatFunc(c, v, FloatLog)
 }
 
 func logBaseU(c Context, u, v Value) Value {
-	return c.EvalBinary(logn(c, v), "/", logn(c, u))
+	return c.EvalBinary(Logn(c, v), "/", Logn(c, u))
 }
 
-// floatLog computes natural log(x) using the Maclaurin series for log(1-x).
-func floatLog(c Context, x *big.Float) *big.Float {
+// FloatLog computes natural log(x) using the Maclaurin series for log(1-x).
+func FloatLog(c Context, x *big.Float) *big.Float {
 	if x.Sign() <= 0 {
 		Errorf("log of non-positive value")
 	}

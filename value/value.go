@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package value // import "robpike.io/ivy/value"
+package value // import "ivy_float_math/value"
 
 import (
 	"fmt"
 	"math/big"
 	"strings"
 
-	"robpike.io/ivy/config"
+	"ivy_big_lib_math/config"
 )
 
 var debugConf = &config.Config{} // For debugging, e.g. to call a String method.

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sort"
 
-	"robpike.io/ivy/config"
+	"ivy_big_lib_math/config"
 )
 
 type Vector []Value

@@ -7,7 +7,7 @@ package value
 import (
 	"math/big"
 
-	"robpike.io/ivy/config"
+	"ivy_big_lib_math/config"
 )
 
 func power(c Context, u, v Value) Value {
@@ -58,7 +58,7 @@ func floatPower(c Context, bx, bexp BigFloat) *big.Float {
 	if !isInt {
 		frac := fexp.Sub(fexp, newFloat(c).SetInt64(exp))
 		// x**frac is e**(frac*log x)
-		logx := floatLog(c, x)
+		logx := FloatLog(c, x)
 		frac.Mul(frac, logx)
 		z.Mul(z, exponential(c.Config(), frac))
 	}

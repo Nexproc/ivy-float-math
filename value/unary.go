@@ -598,10 +598,10 @@ func init() {
 			name:        "log",
 			elementwise: true,
 			fn: [numType]unaryFn{
-				intType:      func(c Context, v Value) Value { return logn(c, v) },
-				bigIntType:   func(c Context, v Value) Value { return logn(c, v) },
-				bigRatType:   func(c Context, v Value) Value { return logn(c, v) },
-				bigFloatType: func(c Context, v Value) Value { return logn(c, v) },
+				intType:      func(c Context, v Value) Value { return Logn(c, v) },
+				bigIntType:   func(c Context, v Value) Value { return Logn(c, v) },
+				bigRatType:   func(c Context, v Value) Value { return Logn(c, v) },
+				bigFloatType: func(c Context, v Value) Value { return Logn(c, v) },
 			},
 		},
 

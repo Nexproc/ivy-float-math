@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package config // import "robpike.io/ivy/config"
+package config // import "ivy_float_math/config"
 
 import (
 	"fmt"
@@ -50,6 +50,11 @@ type Config struct {
 	inputBase  int
 	outputBase int
 	mobile     bool // Running on a mobile platform.
+}
+
+func NewConfig() (c *Config) {
+	c.init()
+	return
 }
 
 func (c *Config) init() {

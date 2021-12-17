@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"robpike.io/ivy/config"
+	"ivy_big_lib_math/config"
 )
 
 /*

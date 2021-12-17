@@ -4,7 +4,7 @@
 
 package value
 
-import "robpike.io/ivy/config"
+import "ivy_big_lib_math/config"
 
 // Expr and Context are defined here to avoid import cycles
 // between parse and value.
