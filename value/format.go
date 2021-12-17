@@ -12,7 +12,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"ivy_big_lib_math/config"
+	"github.com/Nexproc/ivy-float-math/config"
 )
 
 // fmtText returns a vector of Chars holding the string representation

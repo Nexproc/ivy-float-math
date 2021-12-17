@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"strings"
 
-	"ivy_big_lib_math/config"
+	"github.com/Nexproc/ivy-float-math/config"
 )
 
 var debugConf = &config.Config{} // For debugging, e.g. to call a String method.

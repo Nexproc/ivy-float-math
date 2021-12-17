@@ -7,7 +7,7 @@ package exec
 import (
 	"fmt"
 
-	"ivy_big_lib_math/value"
+	"github.com/Nexproc/ivy-float-math/value"
 )
 
 // Function represents a unary or binary user-defined operator.

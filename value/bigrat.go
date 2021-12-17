@@ -10,7 +10,7 @@ import (
 	"math/big"
 	"strings"
 
-	"ivy_big_lib_math/config"
+	"github.com/Nexproc/ivy-float-math/config"
 )
 
 type BigRat struct {

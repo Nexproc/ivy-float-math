@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"ivy_big_lib_math/config"
+	"github.com/Nexproc/ivy-float-math/config"
 )
 
 /*

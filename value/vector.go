@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sort"
 
-	"ivy_big_lib_math/config"
+	"github.com/Nexproc/ivy-float-math/config"
 )
 
 type Vector []Value

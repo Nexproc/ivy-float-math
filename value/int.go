@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"ivy_big_lib_math/config"
+	"github.com/Nexproc/ivy-float-math/config"
 )
 
 // Int is not only the simplest representation, it provides the operands that mix

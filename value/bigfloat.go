@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"ivy_big_lib_math/config"
+	"github.com/Nexproc/ivy-float-math/config"
 )
 
 type BigFloat struct {
