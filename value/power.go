@@ -5,7 +5,7 @@
 package value
 
 import (
-	"ivy_float_math/config"
+	"github.com/Nexproc/ivy-float-math/config"
 	"math/big"
 )
 

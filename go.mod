@@ -1,3 +1,3 @@
-module ivy_float_math
+module github.com/Nexproc/ivy-float-math
 
 go 1.17

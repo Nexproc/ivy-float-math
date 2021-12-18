@@ -1,9 +1,9 @@
 package ivymath
 
 import (
-	"ivy_float_math/config"
-	"ivy_float_math/exec"
-	"ivy_float_math/value"
+	"github.com/Nexproc/ivy-float-math/config"
+	"github.com/Nexproc/ivy-float-math/exec"
+	"github.com/Nexproc/ivy-float-math/value"
 	"math/big"
 )
 

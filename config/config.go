@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package config // import "ivy_float_math/config"
+package config // import "github.com/Nexproc/ivy-float-math/config"
 
 import (
 	"fmt"

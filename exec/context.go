@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package exec // import "ivy_float_math/exec"
+package exec // import "github.com/Nexproc/ivy-float-math/exec"
 
 import (
-	"ivy_float_math/config"
-	"ivy_float_math/value"
+	"github.com/Nexproc/ivy-float-math/config"
+	"github.com/Nexproc/ivy-float-math/value"
 	"strings"
 )
 

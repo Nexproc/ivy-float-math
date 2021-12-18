@@ -7,7 +7,7 @@ package value
 import (
 	"bytes"
 	"fmt"
-	"ivy_float_math/config"
+	"github.com/Nexproc/ivy-float-math/config"
 	"sort"
 )
 

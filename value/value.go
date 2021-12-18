@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package value // import "ivy_float_math/value"
+package value // import "github.com/Nexproc/ivy-float-math/value"
 
 import (
 	"fmt"
-	"ivy_float_math/config"
+	"github.com/Nexproc/ivy-float-math/config"
 	"math/big"
 	"strings"
 )
