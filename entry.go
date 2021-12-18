@@ -25,7 +25,12 @@ func (m math) Logn(float *big.Float) *big.Float {
 
 // Create new module for doing math on values from math/big
 func New() BigMath {
-	var c = exec.NewContext(config.NewConfig())
+	var conf = config.NewConfig()
+	if conf == nil {
+		panic("conf is nil")
+	}
+	var c = exec.NewContext(conf)
+
 	if !constInit {
 		value.Consts(c)
 		constInit = true

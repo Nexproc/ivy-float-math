@@ -52,9 +52,10 @@ type Config struct {
 	mobile     bool // Running on a mobile platform.
 }
 
-func NewConfig() (c *Config) {
+func NewConfig() *Config {
+	c := Config{}
 	c.init()
-	return
+	return &c
 }
 
 func (c *Config) init() {
